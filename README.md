@@ -2,59 +2,110 @@
 
 ## Project Overview
 
-This project analyzes customer retention behavior and marketing attribution performance using MySQL.
+This project analyzes customer purchasing behavior, customer retention, customer drop-off, and marketing attribution using MySQL.
+
+The objective is to identify customer retention trends, analyze repeat purchase behavior, measure customer lifetime value, and evaluate marketing channel performance using advanced SQL concepts.
+
+---
 
 ## Business Problem
 
-The company wanted to:
+An e-commerce company wanted to answer the following business questions:
 
-- Measure customer retention
-- Identify customer drop-offs
-- Analyze repeat purchase behavior
-- Evaluate marketing channel performance
-- Identify high-value customers
+- How many customers return after their first purchase?
+- Which customers are likely to churn?
+- What is the average purchase gap?
+- Which customers generate the highest revenue?
+- Which marketing channel acquires the highest-value customers?
+- Which marketing channel contributes most to customer conversions?
 
-## Dataset
-
-Source: Mockaroo (Synthetic Dataset)
-
-Tables:
-
-1. transactions
-2. marketing_touchpoints
+---
 
 ## Tools Used
 
 - MySQL
-- CTEs
-- Window Functions
-- LEAD()
-- LAG()
-- RANK()
-- DENSE_RANK()
-- ROW_NUMBER()
+- Mockaroo
+- GitHub
 
-## SQL Concepts Used
+---
+
+## SQL Concepts
 
 - CTE
-- Aggregations
 - Window Functions
-- Cohort Analysis
-- Customer Segmentation
-- First-Touch Attribution
-- Last-Touch Attribution
+- ROW_NUMBER()
+- RANK()
+- DENSE_RANK()
+- LEAD()
+- LAG()
+- CASE WHEN
+- Aggregate Functions
+- GROUP BY
+- JOIN
+- TIMESTAMPDIFF()
+- DATEDIFF()
 
-## Key Findings
+---
 
-- Built cohort-based retention tracking
-- Identified repeat purchase behavior
-- Measured repurchase gaps
-- Ranked customers by revenue
-- Analyzed acquisition channel performance
+## Project Structure
 
-## Business Recommendations
+Dataset/
 
-- Increase retention campaigns
-- Retarget inactive customers
-- Focus marketing spend on top-performing channels
-- Build loyalty programs for high-value customers
+- transactions.csv
+- marketing_touchpoints.csv
+
+SQL/
+
+- Create Database
+- Create Tables
+- Data Cleaning
+- Revenue Analysis
+- Cohort Retention
+- Drop-off Analysis
+- Customer Ranking
+- First Touch Attribution
+- Last Touch Attribution
+
+Results/
+
+- SQL Output Screenshots
+
+Documentation/
+
+- Project Overview
+- Business Problem
+- Data Dictionary
+- Final Insights
+
+---
+
+## Key Business Insights
+
+- Built Customer Cohort Retention Analysis
+- Identified Customer Drop-off
+- Calculated Customer Lifetime Revenue
+- Ranked Customers using Window Functions
+- Performed First Touch Attribution
+- Performed Last Touch Attribution
+- Measured Customer Purchase Gap
+- Segmented Customers into One-Time, Repeat and Loyal Customers
+
+---
+
+## Skills Demonstrated
+
+- Advanced SQL
+- CTE
+- Window Functions
+- Customer Analytics
+- Marketing Analytics
+- Customer Retention
+- Attribution Analysis
+- Data Cleaning
+- Business Insights
+
+---
+
+## Author
+
+Varun Gurjar
