@@ -1,17 +1,12 @@
 # Business Problem
 
-An e-commerce company wanted to answer the following business questions:
+An e-commerce company wanted to analyze customer behavior and marketing performance using transaction and marketing touchpoint data.
 
-1. How many customers return after their first purchase?
+The objectives of this project were:
 
-2. Which customers are likely to churn?
-
-3. What is the average time between customer purchases?
-
-4. Which marketing channels generate the highest revenue?
-
-5. Which acquisition channel brings the most valuable customers?
-
-6. Who are the highest revenue-generating customers?
-
-The objective was to improve customer retention strategies and optimize marketing spending by using customer transaction and marketing touchpoint data.
+1. Measure customer retention after the first purchase.
+2. Identify customers who did not return (customer drop-off).
+3. Calculate the average time between repeat purchases.
+4. Identify high-value customers based on total revenue.
+5. Evaluate the effectiveness of marketing channels using First-Touch and Last-Touch Attribution.
+6. Generate business insights to improve customer retention and marketing performance.
